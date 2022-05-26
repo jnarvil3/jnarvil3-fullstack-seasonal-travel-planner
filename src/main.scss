@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin: 1em;
+    width: 7em;
+    height: 3em;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    border-style: solid 1px;
+}
+
+#springButton {
+    background-color: green;
+}
+
+#summerButton {
+    background-color: yellow;
+    color: black;
+}
+
+#fallButton {
+    background-color: brown;
+}
+
+#winterButton {
+    background-color: blue;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.itineraryContainer {
+    margin: 1em;
+    // border-style: dotted 5px white;
+}
+
+span {
+    font-size: medium;
+}
+
+.SeeActivitiesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin: 1em;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addActivitiesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addActivityInputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeBackContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#addActivityButton {
+    color: white;
+    height: auto;
+    background-color: red;
+}
